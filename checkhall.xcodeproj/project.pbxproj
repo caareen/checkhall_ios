@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F820BF32002057C00E904B7 /* 2131623936 in Resources */ = {isa = PBXBuildFile; fileRef = 4F820BF22002057C00E904B7 /* 2131623936 */; };
+		4F820BF52003404500E904B7 /* sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4F820BF42003404500E904B7 /* sound.wav */; };
 		4FC049111FD7F9CF0044DEEC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FC049101FD7F9CF0044DEEC /* GoogleService-Info.plist */; };
 		4FC049151FDA62F50044DEEC /* KakaoCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC049131FDA62F50044DEEC /* KakaoCommon.framework */; };
 		4FC049161FDA62F50044DEEC /* KakaoLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC049141FDA62F50044DEEC /* KakaoLink.framework */; };
@@ -57,6 +59,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F820BF22002057C00E904B7 /* 2131623936 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2131623936; sourceTree = "<group>"; };
+		4F820BF42003404500E904B7 /* sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound.wav; sourceTree = "<group>"; };
 		4FC049101FD7F9CF0044DEEC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4FC049121FD9116A0044DEEC /* checkhall.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = checkhall.entitlements; sourceTree = "<group>"; };
 		4FC049131FDA62F50044DEEC /* KakaoCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoCommon.framework; sourceTree = "<group>"; };
@@ -200,6 +204,8 @@
 				4FC049101FD7F9CF0044DEEC /* GoogleService-Info.plist */,
 				4FEFC1111FD3BB1900C94785 /* main.m */,
 				4FEFC1341FD3C0A500C94785 /* Defines.h */,
+				4F820BF42003404500E904B7 /* sound.wav */,
+				4F820BF22002057C00E904B7 /* 2131623936 */,
 			);
 			path = checkhall;
 			sourceTree = "<group>";
@@ -441,9 +447,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F820BF32002057C00E904B7 /* 2131623936 in Resources */,
 				4FEFC10F1FD3BB1900C94785 /* LaunchScreen.storyboard in Resources */,
 				4FC049111FD7F9CF0044DEEC /* GoogleService-Info.plist in Resources */,
 				4FEFC10C1FD3BB1900C94785 /* Assets.xcassets in Resources */,
+				4F820BF52003404500E904B7 /* sound.wav in Resources */,
 				4FEFC10A1FD3BB1900C94785 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -713,6 +721,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = checkhall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.checkhall.checkhall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -735,6 +744,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = checkhall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.checkhall.checkhall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
